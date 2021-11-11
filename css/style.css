@@ -10,6 +10,10 @@ body {
     border-radius: 50%;
     transition: 0.3s ease;
     cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
 }
 .mdi-phone:hover,
 .mdi-chat:hover,
@@ -81,6 +85,7 @@ body {
 .Previous,
 .next {
     margin: 0 20px;
+    cursor: pointer;
 }
 .Previous > .page-link,
 .next > .page-link {
@@ -90,7 +95,7 @@ body {
 .page-link {
     color: #673ab7 !important;
     border: 1px solid rgba(103, 58, 183, 0.4) !important;
-    padding: 10 20px !important;
+    padding: 5px 20px !important;
 }
 .page-link.last-item {
     border-radius: 0 20px 20px 0;
